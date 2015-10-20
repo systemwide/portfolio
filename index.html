@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Portfolio Page</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body>
+		<main class="container">
+			<header class="row">
+				
+				<div class="col-md-6">
+					<img class="img-responsive title-logo" src="images/logo.png" alt="Udacity Logo">
+				</div>
+
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Benjamin Rotolo</h1>
+					<h4>Aspiring Front-end Developer</h4>
+				</div>
+			</header>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+
+			<section class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/tahoe.png" alt="Photo of me in Tahoe" data-toggle="modal" data-target="#about_me">
+				</div>
+			</section>
+
+			<header class="row">
+				<div class="col-md-12">
+					<h2 class= "text-muted">Featured Work</h2>
+				</div>
+			</header>
+
+			<section class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/Twain-Tesla2.png" alt="Arbitrary Appify Image">
+					<h3 class="text-uppercase">Appify</h3>
+					<p>https://github.com/udacity/Appify</p>
+				</div>
+			
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/bee_microscope.png" alt="Magnified Bee Image">
+					<h3 class="text-uppercase">Sunflower</h3>
+					<p>https://github.com/udacity/Sunflower</p>
+				</div>
+
+				<div class="col-md-4">
+					<img class="img-responsive" src="images/bokeh.png" alt="Arbitrary Bokeh Image">
+					<h3 class="text-uppercase">Bokeh</h3>
+					<p>https://github.com/udacity/Bokeh</p>
+				</div>
+			</section>
+
+
+		</main>
+
+		<!-- Modal -->
+	<div class="modal fade" id="about_me" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 		 <div class="modal-dialog">
+ 		   <div class="modal-content">
+    		  <div class="modal-header">
+        	<h4 class="modal-title" id="myModalLabel">A Modal About Me!</h4>
+      	</div>
+      	<div class="modal-body">
+        	<img class="img-responsive" src="images/tahoe.png" alt="Photo of me in Tahoe">
+        	This is information about me!
+      	</div>
+      
+      	<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	</body>
+
+</html>
